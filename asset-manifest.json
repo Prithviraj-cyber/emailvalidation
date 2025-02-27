@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/emailvalidation/static/css/main.428c0c39.css",
-    "main.js": "/emailvalidation/static/js/main.e189315d.js",
+    "main.js": "/emailvalidation/static/js/main.a5c47029.js",
     "static/js/453.44d29e7e.chunk.js": "/emailvalidation/static/js/453.44d29e7e.chunk.js",
     "index.html": "/emailvalidation/index.html",
     "main.428c0c39.css.map": "/emailvalidation/static/css/main.428c0c39.css.map",
-    "main.e189315d.js.map": "/emailvalidation/static/js/main.e189315d.js.map",
+    "main.a5c47029.js.map": "/emailvalidation/static/js/main.a5c47029.js.map",
     "453.44d29e7e.chunk.js.map": "/emailvalidation/static/js/453.44d29e7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.428c0c39.css",
-    "static/js/main.e189315d.js"
+    "static/js/main.a5c47029.js"
   ]
 }
