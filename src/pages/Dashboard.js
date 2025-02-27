@@ -1,4 +1,3 @@
-// src/pages/Dashboard.js
 
 import React, { useState, useEffect } from 'react';
 import './Dashboard.css';
@@ -83,9 +82,15 @@ function Dashboard() {
                 {currentPageData.map((item, index) => (
                   <tr key={index}>
                     <td>{item.email}</td>
-                    <td>{item.syntaxValidation}</td>
-                    <td>{item.dnsValidation}</td>
-                    <td>{item.deliverable}</td>
+                    <td style={{ color: item.syntaxValidation === 'Valid' ? 'green' : 'red' }}>
+                      {item.syntaxValidation}
+                    </td>
+                    <td style={{ color: item.dnsValidation === 'Success' ? 'green' : 'red' }}>
+                      {item.dnsValidation}
+                    </td>
+                    <td style={{ color: item.deliverable === 'Yes' ? 'green' : 'red' }}>
+                      {item.deliverable}
+                    </td>
                   </tr>
                 ))}
               </tbody>

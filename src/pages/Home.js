@@ -1,4 +1,3 @@
-// src/pages/Home.js
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -80,7 +79,6 @@ function Home() {
 
 export default Home;
 
-// Validation functions
 
 const validateEmail = (email) => {
   return {
